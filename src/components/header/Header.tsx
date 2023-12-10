@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import styles from './header.module.css';
 
 export const Header = () => {
   return (
-  <div className="bg-white py-0 px-0 md:py-6 md:px-6 navbar-light fixed-top">
-    <div className="flex items-center justify-between max-w-screen-xl mx-auto p-2 md:py-2 md:px-6 broder-b-2 md:border border-solid rounded-xl border-gray-300 backdrop-blur-md bg-opacity-50 bg-white">
+  <div>
+    <div className={`flex items-center mt-6 justify-between max-w-screen-xl mx-auto p-2 md:py-2 md:px-6 broder-b-2 md:border border-solid rounded-xl border-gray-300 backdrop-blur-md bg-opacity-50 bg-white ${styles['fixed-top']}`}>
 
       <div className="flex items-center">
           <img src="https://afforai.com/img/graphics/logo-new-violet.webp" alt="Logo" className="h-8 mr-2" />

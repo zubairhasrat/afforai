@@ -1,0 +1,9 @@
+.wrraper {
+  max-width: 1600px; 
+  margin: 100px auto 128px; 
+  gap: 24px;
+}
+
+.wrraper span {
+  color: rgb(128, 54, 255);
+}
