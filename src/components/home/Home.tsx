@@ -6,7 +6,7 @@ import styles from './home.module.css';
 
 export const Home = () => {
   return (
-    <div className='container my-6 relative'>
+    <div className='container my-6 relative mt-32'>
       <div className='flex flex-col relative overflow-hidden gap-24'>
         <div className='flex flex-col items-center gap-8 z-2'>
           <div className={`inline-flex items-center ${styles['appsumo-container']}`}>
